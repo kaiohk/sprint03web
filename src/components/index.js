@@ -1,0 +1,9 @@
+export { default as NavBar } from "./NavBar";
+export { default as Problem } from "./Problem";
+export { default as Public } from "./Public";
+export { default as Gallery } from "./Gallery";
+export { default as Team } from "./Team";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { default as MoreModes } from "./prototipo/MoreModes";
+export { default as GalleryView } from "./prototipo/GalleryView";
