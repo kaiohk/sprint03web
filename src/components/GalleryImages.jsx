@@ -7,7 +7,7 @@ export default function DynamicGallery() {
   const [newTitle, setNewTitle] = useState("");
 
   useEffect(() => {
-    fetch("https://6ae0e14cbe3bc8fead980abe.mockapi.io/api/v1/photos")
+    fetch(process.env.NEXT_PUBLIC_API_URL)
       .then((res) => res.json())
       .then((data) => {
         setPhotos(data);
@@ -30,14 +30,11 @@ export default function DynamicGallery() {
     };
 
     try {
-      const response = await fetch(
-        "https://6ae0e14cbe3bc8fead980abe.mockapi.io/api/v1/photos",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(newPhoto),
-        },
-      );
+      const response = await fetch(process.env.NEXT_PUBLIC_API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newPhoto),
+      });
       const savedPhoto = await response.json();
 
       setPhotos([savedPhoto, ...photos]);
