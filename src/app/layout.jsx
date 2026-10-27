@@ -7,6 +7,11 @@ const poppins = Poppins({
   display: "swap",
 });
 
+export const metadata = {
+  title: "Sprint 03 - JOVI",
+  description:
+    "Página para demonstrar a solução inovadora para as câmeras da JOVI",
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
