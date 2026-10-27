@@ -42,3 +42,21 @@ Após alguns segundos, o terminal exibirá uma mensagem informando que o servido
 ```
 http://localhost:3000
 ```
+
+## Servidores e Backend
+
+O projeto consome dados de uma **API de terceiros mockada (MockAPI)** hospedada externamente. Sendo assim, **não é necessário configurar servidores locais para o backend**, bastando apenas executar o comando `npm run dev` no Front-end para que a aplicação se conecte e sincronize os dados automaticamente.
+
+## Uso de Inteligência Artificial no Projeto
+
+A inteligência artificial foi usada exclusivamente para como configurar o MockAPI e como usá-lo.
+
+## Autenticação
+
+O projeto não possui sistema de login ou restrição de acesso, sendo de livre navegação e teste para qualquer usuário.
+
+## Link do Deploy
+
+Você pode acessar a versão online do projeto através do link abaixo:
+👉 [https://sprint03web.vercel.app/](https://sprint03web.vercel.app/)
+👉 [https://github.com/kaiohk/sprint03web/](https://github.com/kaiohk/sprint03web/)

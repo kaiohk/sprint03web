@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import {
   NavBar,
   Problem,
   Public,
   Gallery,
+  GalleryImages,
   Team,
   Contact,
   Footer,
@@ -55,6 +58,7 @@ export default function Page() {
         <Problem />
         <Public />
         <Gallery />
+        <GalleryImages />
         <Team />
         <Contact />
       </main>
