@@ -2,6 +2,7 @@ export { default as NavBar } from "./NavBar";
 export { default as Problem } from "./Problem";
 export { default as Public } from "./Public";
 export { default as Gallery } from "./Gallery";
+export { default as GalleryImages } from "./GalleryImages";
 export { default as Team } from "./Team";
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
